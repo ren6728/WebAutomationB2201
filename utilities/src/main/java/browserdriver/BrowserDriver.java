@@ -38,7 +38,7 @@ public class BrowserDriver {
     public static String browserName = System.getProperty("browserName", "chrome"); //http://automationpractice.com/
     public static final String url = System.getProperty("url", "http://hrpms.izaan.io/Auth/Account/Login?ReturnUrl=%2F"); // http://the-internet.herokuapp.com/   //
     public static String platform = System.getProperty("platform", "local"); //http://hrpms.izaan.io/Auth/Account/Login?ReturnUrl=%2F
-    public static String os = System.getProperty("os", "mac");
+    public static String os = System.getProperty("os", "windows");
     public static String cloudPlatformName = System.getProperty("cloudPlatformName", "browserstack");
     public static final String AUTOMATE_USERNAME = System.getProperty("AUTOMATE_USERNAME","yourusername");
     public static final String AUTOMATE_ACCESS_KEY = System.getProperty("AUTOMATE_ACCESS_KEY", "xxnxn");
