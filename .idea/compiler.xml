@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="automationpractice" />
+        <module name="herokiapp" />
+        <module name="hrpms" />
+        <module name="utilities" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="automationpractice" target="1.8" />
+      <module name="herokiapp" target="1.8" />
+      <module name="hrpms" target="1.8" />
+      <module name="utilities" target="1.8" />
+      <module name="WebAutomationB2201" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
